@@ -16,7 +16,7 @@ PProviders: &PProviders {type: http, interval: 86400, health-check: {enable: tru
 proxy-providers:
   Airport_01:
     <<: *PProviders
-    proxy: "故障转移"
+    proxy: "全部节点"
     url: "https://sadvac.908970.xyz/api/v1/client/subscribe?token=00111f6723213f6cfd390df55e0e5fad"
     override:
       additional-prefix: '[机场名称1]'
