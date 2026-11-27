@@ -17,7 +17,7 @@ proxy-providers:
   Airport_01:
     <<: *PProviders
     proxy: "全部节点"
-    url: "https://sadvac.908970.xyz/api/v1/client/subscribe?token=00111f6723213f6cfd390df55e0e5fad"
+    url: "https://sadvac.908970.xyz/api"
     override:
       additional-prefix: '[机场名称1]'
       skip-cert-verify: true
