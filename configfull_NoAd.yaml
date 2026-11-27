@@ -17,7 +17,7 @@ proxy-providers:
   Airport_01:
     <<: *PProviders
     proxy: "故障转移"
-    url: "订阅链接1"
+    url: "http://sub.store/download/feiniao?target=ClashMeta&prettyYaml=true"
     override:
       additional-prefix: '[机场名称1]'
       skip-cert-verify: true
